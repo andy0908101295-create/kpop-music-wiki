@@ -31,7 +31,7 @@ jobs:
       - name: Upload slides artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './slides'
+          path: './kpop-music-wiki/slides'
 
       - name: Deploy to GitHub Pages
         id: deployment
